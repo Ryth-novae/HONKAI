@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.venv/
+venv/
+
+# Data & generated outputs (large files, not for version control)
+data/inputs/*.fits
+data/intermediate/
+data/outputs/
+*.acorn
+*.dat
+*.npy
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

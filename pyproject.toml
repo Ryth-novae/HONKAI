@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ism-pipeline"
+version = "1.0.0"
+description = "An automated analysis pipeline for interstellar medium (ISM) molecular line data"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "pandas",
+    "astropy",
+    "spectral-cube",
+    "Pillow",
+    "pyvista",
+    "pyspeckit",
+    "tqdm",
+]
+
+[tool.setuptools]
+py-modules = ["config"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["src*"]

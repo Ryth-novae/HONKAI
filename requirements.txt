@@ -1,0 +1,10 @@
+numpy
+matplotlib
+pandas
+scipy
+astropy
+spectral_cube
+Pillow
+pyvista
+pyspeckit
+tqdm
