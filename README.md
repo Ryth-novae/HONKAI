@@ -1,4 +1,4 @@
-# ISM Molecular Line Data Pipeline
+# A tool of Hierarchical cOre ideNtification and Kinematic property AssIgnment (**HONKAI**) for Dense Cores
 
 An automated analysis pipeline for interstellar medium (ISM) molecular line data, built on [ScousePy](https://github.com/jdhenshaw/scousepy) + [ACORNS](https://github.com/jdhenshaw/acorns).
 
